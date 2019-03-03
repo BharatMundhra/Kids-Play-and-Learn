@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>learn 'n' play</title>
+<style>
+ul {list-style-type: none;background-color: transparent;position:fixed;left:200px;}
+li {float: left;}
+li a{
+    display: inline-block;
+    text-align: center;
+    padding: 44px 46px;
+    text-decoration: none;
+	font-size:40px;
+	color: white;
+	opacity:0.7;
+}
+li a:hover{opacity:1;}
+html{background: url(../img/learn.png) no-repeat center fixed; background-size: cover;}
+marquee{float:left;}
+</style>
+</head>
+<body>	
+<ul>
+  <li><a href="index.html" style="background-color:red" onMouseOver="this.style.color='#0F0'" onMouseOut="this.style.color='white'">Home</a></li>
+  <li><a href="alphabet.html" style="background-color:orange" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Alphabets</a></li>
+  <li><a href="number.html" style="background-color:yellow" onMouseOver="this.style.color='grey'" onMouseOut="this.style.color='white'">Numbers</a></li>
+  <li><a href="poetry.html" style="background-color:green" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">Poetry</a></li>
+  <li><a href="play.html" style="background-color:blue" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Play</a></li>
+</ul><br><br><br><br><br><br><br><br><br><br><br><br>
+<marquee direction="up" width="25%"><img src="..\img\abc.png" style="height:200px;width:300px"></marquee>
+<marquee direction="up" width="25%"><img src="..\img\num3.png" style="height:200px;width:300px"></marquee>
+<marquee direction="up" width="25%"><img src="..\img\num.png" style="height:200px;width:300px"></marquee>
+<marquee direction="up" width="25%"><img src="..\img\play3.png" style="height:200px;width:300px"></marquee>
+<marquee direction="down" width="25%"><img src="..\img\abc.png" style="height:200px;width:300px;transform:scaleY(-1)"></marquee>
+<marquee direction="down" width="25%"><img src="..\img\num3.png" style="height:200px;width:300px;transform:scaleY(-1)"></marquee>
+<marquee direction="down" width="25%"><img src="..\img\num.png" style="height:200px;width:300px;transform:scaleY(-1)"></marquee>
+<marquee direction="down" width="25%"><img src="..\img\play3.png" style="height:200px;width:300px;transform:scaleY(-1)"></marquee>
+</body>
+</html>
